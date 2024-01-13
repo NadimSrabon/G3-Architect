@@ -87,36 +87,91 @@ nav ul li a {
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
-   
+
 }
 
-.banner-pic{
+.banner-pic {
     margin-top: 20px;
     width: 100%;
 }
 
-@media screen and (max-width:576px){
-    header{
+@media screen and (max-width:576px) {
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
 
     }
-    nav > ul{
+
+    nav>ul {
         flex-direction: column;
     }
 }
 
-@media screen and (min-width:576px) and (max-width:960px){
-    header{
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
 
     }
-    nav > ul{
+
+    nav>ul {
         flex-direction: column;
     }
+}
+
+/* -------End Of Header Part------------------ */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.quad-triple {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 170px;
+}
+
+.qd-details {
+    padding-left: 90px;
+    width: 468px;
+}
+
+.Quick-list {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.of-our {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Features {
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
