@@ -4,6 +4,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header section */
+
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -48,7 +50,7 @@ nav ul li a {
 
 .banner-des {
     width: 862px;
-    align-items: center;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -70,4 +72,51 @@ nav ul li a {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+   
+}
+
+.banner-pic{
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+    nav > ul{
+        flex-direction: column;
+    }
 }
