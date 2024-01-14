@@ -100,7 +100,8 @@ nav ul li a {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .quad-triple {
         flex-direction: column;
 
     }
@@ -108,6 +109,35 @@ nav ul li a {
     nav>ul {
         flex-direction: column;
     }
+
+    .team-img {
+        grid-template-columns: 1fr;
+    }
+
+    .qd-details {
+        padding: 60px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .sponsor-pic {
+        flex-direction: column;
+        padding-left: 140px;
+        gap: 25px;
+    }
+
+    .fywle {
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .lady img {
+        margin-left: 0;
+
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -123,9 +153,32 @@ nav ul li a {
     nav>ul {
         flex-direction: column;
     }
+
+    .team-img {
+        grid-template-columns: 1fr;
+    }
+
+    .qd-details {
+        padding: 60px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .sponsor-pic {
+        flex-direction: column;
+        padding-left: 140px;
+        gap: 25px;
+
+    }
+
 }
 
 /* -------End Of Header Part------------------ */
+
+
+
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -174,4 +227,199 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+
+.Fyle {
+    margin-left: 150px;
+}
+
+.card-container .card-state {
+    color: var(--Dark-02, #424242);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-paraa {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card {
+    padding: 40px 30px;
+}
+
+.card-state {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.Feature-title {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Feature-Paragraph {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.os {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sponsor-pic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.os-header {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.os-para {
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fywle {
+    display: flex;
+}
+
+.exp {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    height: 200px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    bottom: 150px;
+}
+
+.fywle-card {
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.fiver h1 {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fiver p {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.Top {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Top-Para {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fywle {
+    margin-top: 50px;
+}
+
+.exp h2 {
+    margin: 0;
+}
+
+.lady img {
+    margin-left: 70px;
+}
+
+footer p {
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px auto;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1330px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-left: 84px;
+}
+
+footer p{
+    padding-top: 80px;
 }
